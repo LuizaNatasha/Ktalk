@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.AulasFragment"
+    android:background="#FFFF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerInParent="true"
+            android:background="@drawable/white_designer">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/imagemGif_talk"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/talk_animation"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="408dp"
+            android:layout_height="530dp"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_aula1"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:src="@drawable/class1"
+                    android:padding="30dp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:clickable="false"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16dp"
+                    android:text="Vogais Simples"
+                    android:fontFamily="casual"
+                    android:textColor="#000000">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageButton
+                    android:id="@+id/btn_aula2"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:src="@drawable/class2"
+                    android:padding="30dp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:clickable="false"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16dp"
+                    android:text="Vogais Compostas"
+                    android:fontFamily="casual"
+                    android:textColor="#000000">
+                </TextView>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="180dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_aula3"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:src="@drawable/class3"
+                    android:padding="30dp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:clickable="false"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16dp"
+                    android:text="Consoantes Simples"
+                    android:fontFamily="casual"
+                    android:textColor="#000000">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_aula4"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:src="@drawable/class4"
+                    android:padding="30dp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:clickable="false"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16dp"
+                    android:text="Consoantes Compostas"
+                    android:fontFamily="casual"
+                    android:textColor="#000000">
+                </TextView>
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="360dp">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_aula5"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:src="@drawable/class5"
+                    android:padding="30dp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:clickable="false"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16dp"
+                    android:text="Batchim Simples"
+                    android:fontFamily="casual"
+                    android:textColor="#000000">
+                </TextView>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_aula6"
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:layout_margin="5dp"
+                    android:background="#FFFF"
+                    android:src="@drawable/class6"
+                    android:padding="30dp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFF">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:clickable="false"
+                    android:layout_marginTop="60dp"
+                    android:textSize="16dp"
+                    android:text="Batchim Duplo"
+                    android:fontFamily="casual"
+                    android:textColor="#000000">
+                </TextView>
+            </FrameLayout>
+
+        </LinearLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</LinearLayout>

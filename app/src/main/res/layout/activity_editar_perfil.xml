@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.EditarPerfilActivity"
+    android:background="#FFFF"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_back"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/white_backgraund_button"
+        android:drawableTop="@drawable/ic_back"
+        android:onClick="gotoHome"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="0"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView_activityAlterarPerfil"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:src="@drawable/avatar" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFF"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_camera_AlterarPerfilAcivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_camera"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_backgraund_button" />
+
+                <ImageButton
+                    android:id="@+id/btn_galery_AlterarPerfilAcivity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_photo"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/white_backgraund_button" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txt_nome_AlterarPerfilAcivity"
+                android:layout_width="309dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round"
+                android:drawableStart="@drawable/ic_person"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Nome"
+                android:inputType="text"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/txt_email_AlterarPerfilAcivity"
+                android:layout_width="309dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/round"
+                android:drawableStart="@drawable/ic_person"
+                android:drawableLeft="@drawable/ic_email"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btn_salvar_AlterarPerfilAcivity"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Salvar"
+                android:background="@drawable/btn2"
+                android:textColor="#FFF"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

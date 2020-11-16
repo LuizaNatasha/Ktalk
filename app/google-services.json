@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "950647792686",
+    "firebase_url": "https://k-talk-27df4.firebaseio.com",
+    "project_id": "k-talk-27df4",
+    "storage_bucket": "k-talk-27df4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950647792686:android:4a150af53c20deb56b2bbf",
+        "android_client_info": {
+          "package_name": "com.example.k_talk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950647792686-8pahtd906mis37blm7p0p184oiffrjb2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.k_talk",
+            "certificate_hash": "755a138498c3700a9e8c4b2658084c349d1f9a45"
+          }
+        },
+        {
+          "client_id": "950647792686-7qnfmn1pdotkp4t9j6422r73tm0qg59s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmPKTsIOCC5ot7Q_SNzNbUUbc72-GGqaI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950647792686-7qnfmn1pdotkp4t9j6422r73tm0qg59s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
