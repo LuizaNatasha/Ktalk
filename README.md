@@ -1,6 +1,6 @@
 # K-TALK
 
-![Logo] (link da imagem do logo)
+![Logo] (https://drive.google.com/file/d/1J7m3cRo9rQNgGrTMAoJbKH8XOPh4M4Ls/view)
 
 <p align="center">
  <a href="#integrantes">Integrantes e Papéis</a> •
