@@ -1,6 +1,6 @@
 # K-TALK
 
-![Logo](https://drive.google.com/file/d/1J7m3cRo9rQNgGrTMAoJbKH8XOPh4M4Ls/view)
+![K-talk](https://user-images.githubusercontent.com/64264855/99914372-5fafa400-2cd3-11eb-9ba7-276c7082c47b.png)
 
 <p align="center">
  <a href="#integrantes">Integrantes e Papéis</a> •
